@@ -1,34 +1,31 @@
 <head>
   <title>The Wow App is coming soon</title>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <h1>Wow app!</h1>
-  <p>We are almost ready</p>
 
-<div class="image-gradient-dynamic">
-  <!--<img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="">-->
-  <div class="overlay"></div>
-  <div class="copy">
-    <h1>Dynamic height container</h1>
-    
-    <!-- input -->
+  <div class="image-gradient-dynamic">
+    <!--<img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="">-->
+    <div class="overlay"></div>
+    <div class="copy">
+      <h1>Dynamic height container</h1>
+      
+      <!-- input -->
     <form class="email-bar" role="form">
-      <input type="search" placeholder="Enter Your Email" />
-      <button type="submit">
-        sumbit
- <!--     <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">-->
-    </button>
-  </form>
-    
-    <!-- end input -->
+        <input type="search" placeholder="Enter Your Email" />
+        <button type="submit">
+          sumbit
+      </button>
+    </form>
+      <!-- end input -->
+
+      {{> mailchimp}}
+
+    </div>
   </div>
-</div>
 
 
-
-
-  {{> mailchimp}}
 </body>
 
 <template name="mailchimp">
