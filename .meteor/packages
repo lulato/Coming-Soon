@@ -7,9 +7,11 @@
 meteor-platform
 autopublish
 insecure
+jquery
 miro:mailchimp
 fourseven:scss
 wolves:bourbon
 wolves:neat
 
 waitingkuo:normalize
+goltfisch:jquery-backstretch
