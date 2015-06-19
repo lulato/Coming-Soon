@@ -407,7 +407,7 @@ form.email-bar {
   input {
   color: white;
   }
-  input[type=search] {
+  input[type=email] {
     @include appearance(none);
     @include box-sizing(border-box);
     @include transition(border-color);
@@ -441,4 +441,10 @@ form.email-bar {
     }
   }  
 
+}
+
+
+//  fix for the subscribe button that come on Mailchimp Form
+.subscribe {
+  margin-top: 1em;
 }
