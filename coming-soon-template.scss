@@ -78,6 +78,7 @@ h6 {
   font-family: $header-font-family;
   line-height: $header-line-height;
   margin: 0;
+  color: white;
 }
 
 h1 {
@@ -425,7 +426,7 @@ form.email-bar {
     color: white;
   }
   input::-webkit-input-placeholder {
-   color: grey;
+   color: white;
   }
   button[type=submit] {
     @include button(flat, $action-color);
